@@ -2,6 +2,7 @@ from jose import jwt
 import time
 from authlib.integrations.starlette_client import OAuth
 from fastapi import Request
+
 from config import (
     APPLE_CLIENT_ID, APPLE_TEAM_ID, APPLE_KEY_ID, APPLE_PRIVATE_KEY_PATH
 )
